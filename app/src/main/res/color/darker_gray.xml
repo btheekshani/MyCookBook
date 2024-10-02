@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State when the UI component is pressed -->
+    <item android:color="#A9A9A9" android:state_pressed="true" /> <!-- Dark gray -->
+
+    <!-- State when the UI component is focused -->
+    <item android:color="#808080" android:state_focused="true" /> <!-- Gray -->
+
+    <!-- State when the UI component is disabled -->
+    <item android:color="#D3D3D3" android:state_enabled="false" /> <!-- Light gray -->
+
+    <!-- Default state -->
+    <item android:color="#696969" /> <!-- Default darker gray -->
+
+</selector>

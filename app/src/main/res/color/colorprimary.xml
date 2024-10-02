@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State for when the button is pressed -->
+    <item android:color="#FF5733" android:state_pressed="true" />
+
+    <!-- State for when the button is focused -->
+    <item android:color="#FF8C00" android:state_focused="true" />
+
+    <!-- State for when the button is disabled -->
+    <item android:color="#CCCCCC" android:state_enabled="false" />
+
+    <!-- Default state (when nothing is selected) -->
+    <item android:color="#3F51B5" />
+
+</selector>

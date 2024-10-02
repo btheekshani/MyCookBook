@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <!-- Set the border color and width -->
+            <stroke
+                android:width="4dp"
+                android:color="#FF0000" /> <!-- Border color changed to red -->
+
+            <!-- Optional: Set corner radius for rounded edges -->
+            <corners android:radius="16dp" /> <!-- Radius increased to 16dp -->
+
+            <!-- Optional: Set background color -->
+            <solid android:color="#FFDD99" /> <!-- Background color changed to light yellow -->
+        </shape>
+    </item>
+
+</selector>
