@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
-
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mycookbook">
+    <!-- Change to your package name -->
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -14,52 +15,55 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyCookBook"
         tools:targetApi="31">
+        <activity
+            android:name=".addrecipe1"
+             />
 
         <activity
             android:name=".Account"
-            android:exported="false" />
+            />
         <activity
             android:name=".Community"
-            android:exported="false" />
+             />
         <activity
             android:name=".Notification"
-            android:exported="false" />
+             />
         <activity
             android:name=".DonutsRecipe"
-            android:exported="false" />
+             />
         <activity
             android:name=".PizzaRecipe"
-            android:exported="false" />
+            />
         <activity
             android:name=".PanCakeRecipe"
-            android:exported="false" />
+             />
         <activity
             android:name=".CheeseCakeRecipe"
-            android:exported="false" />
+           />
         <activity
             android:name=".SearchRecipe"
-            android:exported="false" />
+            />
         <activity
             android:name=".SignInPage"
-            android:exported="false" />
+           />
         <activity
             android:name=".SkillLevel4"
-            android:exported="false" />
+             />
         <activity
             android:name=".SkillLevel3"
-            android:exported="false" />
+            />
         <activity
             android:name=".SkillLevel2"
-            android:exported="false" />
+            />
         <activity
             android:name=".SkillLevel"
-            android:exported="false" />
+            />
         <activity
             android:name=".LoginPage"
-            android:exported="false" />
+            />
         <activity
             android:name=".StartCooking"
-            android:exported="false" />
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true">

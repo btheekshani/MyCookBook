@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">MyCookBook</string>
+    <string name="share_your_nmasterpiece_with_the_world" />
+    <string name="share_your_masterpiece_with_the_world" />
+    <string name="add_recipe_image" />
 </resources>
